@@ -4,7 +4,7 @@
     "scripts": {
         "dev": "webpack-dev-server --inline --content-base ./public --history-api-fallback",
         "postinstall": "webpack -p",
-        "start": "node server"
+        "start": "node server.js"
     },
     "babel": {
         "presets": [
